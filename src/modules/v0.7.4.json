@@ -1,0 +1,2633 @@
+[
+  {
+    "title": "Layout",
+    "content": [
+      {
+        "title": "Container",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/container",
+        "description": "A component for fixing an element's width to the current breakpoint.",
+        "table": [
+          [
+            ".container",
+            "None"
+          ],
+          [
+            "sm (576px)",
+            "max-width: 576px;"
+          ],
+          [
+            "md (768px)",
+            "max-width: 768px;"
+          ],
+          [
+            "lg (992px)",
+            "max-width: 992px;"
+          ],
+          [
+            "xl (1200px)",
+            "max-width: 1200px;"
+          ]
+        ]
+      },
+      {
+        "title": "Display",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/display",
+        "description": "Utilities for controlling the display box type of an element.",
+        "table": [
+          [
+            ".block",
+            "display: block;"
+          ],
+          [
+            ".inline-block",
+            "display: inline-block;"
+          ],
+          [
+            ".inline",
+            "display: inline;"
+          ],
+          [
+            ".table",
+            "display: table;"
+          ],
+          [
+            ".table-row",
+            "display: table-row;"
+          ],
+          [
+            ".table-cell",
+            "display: table-cell;"
+          ],
+          [
+            ".hidden",
+            "display: none;"
+          ],
+          [
+            ".flex",
+            "display: flex;"
+          ],
+          [
+            ".inline-flex",
+            "display: inline-flex;"
+          ]
+        ]
+      },
+      {
+        "title": "Floats",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/floats",
+        "description": "Utilities for controlling the wrapping of content around an element.",
+        "table": [
+          [
+            ".float-right",
+            "float: right;"
+          ],
+          [
+            ".float-left",
+            "float: left;"
+          ],
+          [
+            ".float-none",
+            "float: none;"
+          ],
+          [
+            ".clearfix",
+            "&::after {\n  content: \"\";\n  display: table;\n  clear: both;\n}"
+          ]
+        ]
+      },
+      {
+        "title": "Object Fit",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/object-fit",
+        "description": "Utilities for controlling the element's respond to the height and width of its content box.",
+        "table": [
+          [
+            ".object-contain",
+            "object-fit: contain;"
+          ],
+          [
+            ".object-cover",
+            "object-fit: cover;"
+          ],
+          [
+            ".object-fill",
+            "object-fit: fill;"
+          ],
+          [
+            ".object-none",
+            "object-fit: none;"
+          ],
+          [
+            ".object-scale-down",
+            "object-fit: scale-down;"
+          ]
+        ]
+      },
+      {
+        "title": "Object Position",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/object-position",
+        "description": "Utilities for controlling the element's respond to the height and width of its content box.",
+        "table": [
+          [
+            ".object-bottom",
+            "object-position: bottom;"
+          ],
+          [
+            ".object-center",
+            "object-position: center;"
+          ],
+          [
+            ".object-left",
+            "object-position: left;"
+          ],
+          [
+            ".object-left-bottom",
+            "object-position: left bottom;"
+          ],
+          [
+            ".object-left-top",
+            "object-position: left top;"
+          ],
+          [
+            ".object-right",
+            "object-position: right;"
+          ],
+          [
+            ".object-right-bottom",
+            "object-position: right bottom;"
+          ],
+          [
+            ".object-right-top",
+            "object-position: right top;"
+          ],
+          [
+            ".object-top",
+            "object-position: top;"
+          ]
+        ]
+      },
+      {
+        "title": "Overflow",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/overflow",
+        "description": "Utilities for controlling how an element handles content that is too large for the container.",
+        "table": [
+          [
+            ".overflow-auto",
+            "overflow: auto;"
+          ],
+          [
+            ".overflow-hidden",
+            "overflow: hidden;"
+          ],
+          [
+            ".overflow-visible",
+            "overflow: visible;"
+          ],
+          [
+            ".overflow-scroll",
+            "overflow: scroll;"
+          ],
+          [
+            ".overflow-x-auto",
+            "overflow-x: auto;"
+          ],
+          [
+            ".overflow-y-auto",
+            "overflow-y: auto;"
+          ],
+          [
+            ".overflow-x-hidden",
+            "overflow-x: hidden;"
+          ],
+          [
+            ".overflow-y-hidden",
+            "overflow-y: hidden;"
+          ],
+          [
+            ".overflow-x-visible",
+            "overflow-x: visible;"
+          ],
+          [
+            ".overflow-y-visible",
+            "overflow-y: visible;"
+          ],
+          [
+            ".overflow-x-scroll",
+            "overflow-x: scroll;"
+          ],
+          [
+            ".overflow-y-scroll",
+            "overflow-y: scroll;"
+          ],
+          [
+            ".scrolling-touch",
+            "-webkit-overflow-scrolling: touch;"
+          ],
+          [
+            ".scrolling-auto",
+            "-webkit-overflow-scrolling: auto;"
+          ]
+        ]
+      },
+      {
+        "title": "Position",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/positioning",
+        "description": "Utilities for controlling how an element is positioned in the DOM.",
+        "table": [
+          [
+            ".static",
+            "position: static;"
+          ],
+          [
+            ".fixed",
+            "position: fixed;"
+          ],
+          [
+            ".absolute",
+            "position: absolute;"
+          ],
+          [
+            ".relative",
+            "position: relative;"
+          ],
+          [
+            ".sticky",
+            "position: sticky;"
+          ],
+          [
+            ".pin-t",
+            "top: 0;"
+          ],
+          [
+            ".pin-r",
+            "right: 0;"
+          ],
+          [
+            ".pin-b",
+            "bottom: 0;"
+          ],
+          [
+            ".pin-l",
+            "left: 0;"
+          ],
+          [
+            ".pin-y",
+            "top: 0;\nbottom: 0;"
+          ],
+          [
+            ".pin-x",
+            "right: 0;\nleft: 0;"
+          ],
+          [
+            ".pin",
+            "top: 0;\nright: 0;\nbottom: 0;\nleft: 0;"
+          ],
+          [
+            ".pin-none",
+            "top: auto;\nright: auto;\nbottom: auto;\nleft: auto;"
+          ]
+        ]
+      },
+      {
+        "title": "Visibility",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/visibility",
+        "description": "Utilities for controlling the visibility of an element.",
+        "table": [
+          [
+            ".visible",
+            "visibility: visible;"
+          ],
+          [
+            ".invisible",
+            "visibility: hidden;"
+          ]
+        ]
+      },
+      {
+        "title": "Z-Index",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/z-index",
+        "description": "Utilities for controlling the stack order of an element.",
+        "table": [
+          [
+            ".z-0",
+            "z-index: 0;"
+          ],
+          [
+            ".z-10",
+            "z-index: 10;"
+          ],
+          [
+            ".z-20",
+            "z-index: 20;"
+          ],
+          [
+            ".z-30",
+            "z-index: 30;"
+          ],
+          [
+            ".z-40",
+            "z-index: 40;"
+          ],
+          [
+            ".z-50",
+            "z-index: 50;"
+          ],
+          [
+            ".z-auto",
+            "z-index: auto;"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Typography",
+    "content": [
+      {
+        "title": "Color",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/text-color",
+        "description": "Utilities for controlling the text color of an element.",
+        "table": [
+          [
+            ".text-transparent",
+            "color: transparent;"
+          ],
+          [
+            ".text-black",
+            "color: #22292f;"
+          ],
+          [
+            ".text-grey-darkest",
+            "color: #3d4852;"
+          ],
+          [
+            ".text-grey-darker",
+            "color: #606f7b;"
+          ],
+          [
+            ".text-grey-dark",
+            "color: #8795a1;"
+          ],
+          [
+            ".text-grey",
+            "color: #b8c2cc;"
+          ],
+          [
+            ".text-grey-light",
+            "color: #dae1e7;"
+          ],
+          [
+            ".text-grey-lighter",
+            "color: #f1f5f8;"
+          ],
+          [
+            ".text-grey-lightest",
+            "color: #f8fafc;"
+          ],
+          [
+            ".text-white",
+            "color: #ffffff;"
+          ],
+          [
+            ".text-red-darkest",
+            "color: #3b0d0c;"
+          ],
+          [
+            ".text-red-darker",
+            "color: #621b18;"
+          ],
+          [
+            ".text-red-dark",
+            "color: #cc1f1a;"
+          ],
+          [
+            ".text-red",
+            "color: #e3342f;"
+          ],
+          [
+            ".text-red-light",
+            "color: #ef5753;"
+          ],
+          [
+            ".text-red-lighter",
+            "color: #f9acaa;"
+          ],
+          [
+            ".text-red-lightest",
+            "color: #fcebea;"
+          ],
+          [
+            ".text-orange-darkest",
+            "color: #462a16;"
+          ],
+          [
+            ".text-orange-darker",
+            "color: #613b1f;"
+          ],
+          [
+            ".text-orange-dark",
+            "color: #de751f;"
+          ],
+          [
+            ".text-orange",
+            "color: #f6993f;"
+          ],
+          [
+            ".text-orange-light",
+            "color: #faad63;"
+          ],
+          [
+            ".text-orange-lighter",
+            "color: #fcd9b6;"
+          ],
+          [
+            ".text-orange-lightest",
+            "color: #fff5eb;"
+          ],
+          [
+            ".text-yellow-darkest",
+            "color: #453411;"
+          ],
+          [
+            ".text-yellow-darker",
+            "color: #684f1d;"
+          ],
+          [
+            ".text-yellow-dark",
+            "color: #f2d024;"
+          ],
+          [
+            ".text-yellow",
+            "color: #ffed4a;"
+          ],
+          [
+            ".text-yellow-light",
+            "color: #fff382;"
+          ],
+          [
+            ".text-yellow-lighter",
+            "color: #fff9c2;"
+          ],
+          [
+            ".text-yellow-lightest",
+            "color: #fcfbeb;"
+          ],
+          [
+            ".text-green-darkest",
+            "color: #0f2f21;"
+          ],
+          [
+            ".text-green-darker",
+            "color: #1a4731;"
+          ],
+          [
+            ".text-green-dark",
+            "color: #1f9d55;"
+          ],
+          [
+            ".text-green",
+            "color: #38c172;"
+          ],
+          [
+            ".text-green-light",
+            "color: #51d88a;"
+          ],
+          [
+            ".text-green-lighter",
+            "color: #a2f5bf;"
+          ],
+          [
+            ".text-green-lightest",
+            "color: #e3fcec;"
+          ],
+          [
+            ".text-teal-darkest",
+            "color: #0d3331;"
+          ],
+          [
+            ".text-teal-darker",
+            "color: #20504f;"
+          ],
+          [
+            ".text-teal-dark",
+            "color: #38a89d;"
+          ],
+          [
+            ".text-teal",
+            "color: #4dc0b5;"
+          ],
+          [
+            ".text-teal-light",
+            "color: #64d5ca;"
+          ],
+          [
+            ".text-teal-lighter",
+            "color: #a0f0ed;"
+          ],
+          [
+            ".text-teal-lightest",
+            "color: #e8fffe;"
+          ],
+          [
+            ".text-blue-darkest",
+            "color: #12283a;"
+          ],
+          [
+            ".text-blue-darker",
+            "color: #1c3d5a;"
+          ],
+          [
+            ".text-blue-dark",
+            "color: #2779bd;"
+          ],
+          [
+            ".text-blue",
+            "color: #3490dc;"
+          ],
+          [
+            ".text-blue-light",
+            "color: #6cb2eb;"
+          ],
+          [
+            ".text-blue-lighter",
+            "color: #bcdefa;"
+          ],
+          [
+            ".text-blue-lightest",
+            "color: #eff8ff;"
+          ],
+          [
+            ".text-indigo-darkest",
+            "color: #191e38;"
+          ],
+          [
+            ".text-indigo-darker",
+            "color: #2f365f;"
+          ],
+          [
+            ".text-indigo-dark",
+            "color: #5661b3;"
+          ],
+          [
+            ".text-indigo",
+            "color: #6574cd;"
+          ],
+          [
+            ".text-indigo-light",
+            "color: #7886d7;"
+          ],
+          [
+            ".text-indigo-lighter",
+            "color: #b2b7ff;"
+          ],
+          [
+            ".text-indigo-lightest",
+            "color: #e6e8ff;"
+          ],
+          [
+            ".text-purple-darkest",
+            "color: #21183c;"
+          ],
+          [
+            ".text-purple-darker",
+            "color: #382b5f;"
+          ],
+          [
+            ".text-purple-dark",
+            "color: #794acf;"
+          ],
+          [
+            ".text-purple",
+            "color: #9561e2;"
+          ],
+          [
+            ".text-purple-light",
+            "color: #a779e9;"
+          ],
+          [
+            ".text-purple-lighter",
+            "color: #d6bbfc;"
+          ],
+          [
+            ".text-purple-lightest",
+            "color: #f3ebff;"
+          ],
+          [
+            ".text-pink-darkest",
+            "color: #451225;"
+          ],
+          [
+            ".text-pink-darker",
+            "color: #6f213f;"
+          ],
+          [
+            ".text-pink-dark",
+            "color: #eb5286;"
+          ],
+          [
+            ".text-pink",
+            "color: #f66d9b;"
+          ],
+          [
+            ".text-pink-light",
+            "color: #fa7ea8;"
+          ],
+          [
+            ".text-pink-lighter",
+            "color: #ffbbca;"
+          ],
+          [
+            ".text-pink-lightest",
+            "color: #ffebef;"
+          ]
+        ]
+      },
+      {
+        "title": "Font Family",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/fonts",
+        "description": "Utilities for controlling the font family of an element.",
+        "table": [
+          [
+            ".font-sans",
+            "font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;"
+          ],
+          [
+            ".font-serif",
+            "font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;"
+          ],
+          [
+            ".font-mono",
+            "font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;"
+          ]
+        ]
+      },
+      {
+        "title": "Font Size",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/text-sizing",
+        "description": "Utilities for controlling the font size of an element.",
+        "table": [
+          [
+            ".text-xs",
+            "font-size: .75rem;"
+          ],
+          [
+            ".text-sm",
+            "font-size: .875rem;"
+          ],
+          [
+            ".text-base",
+            "font-size: 1rem;"
+          ],
+          [
+            ".text-lg",
+            "font-size: 1.125rem;"
+          ],
+          [
+            ".text-xl",
+            "font-size: 1.25rem;"
+          ],
+          [
+            ".text-2xl",
+            "font-size: 1.5rem;"
+          ],
+          [
+            ".text-3xl",
+            "font-size: 1.875rem;"
+          ],
+          [
+            ".text-4xl",
+            "font-size: 2.25rem;"
+          ],
+          [
+            ".text-5xl",
+            "font-size: 3rem;"
+          ]
+        ]
+      },
+      {
+        "title": "Font Weight",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/font-weight",
+        "description": "Utilities for controlling the font weight of an element.",
+        "table": [
+          [
+            ".font-hairline",
+            "font-weight: 100;"
+          ],
+          [
+            ".font-thin",
+            "font-weight: 200;"
+          ],
+          [
+            ".font-light",
+            "font-weight: 300;"
+          ],
+          [
+            ".font-normal",
+            "font-weight: 400;"
+          ],
+          [
+            ".font-medium",
+            "font-weight: 500;"
+          ],
+          [
+            ".font-semibold",
+            "font-weight: 600;"
+          ],
+          [
+            ".font-bold",
+            "font-weight: 700;"
+          ],
+          [
+            ".font-extrabold",
+            "font-weight: 800;"
+          ],
+          [
+            ".font-black",
+            "font-weight: 900;"
+          ]
+        ]
+      },
+      {
+        "title": "Letter Spacing",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/letter-spacing",
+        "description": "Utilities for controlling the tracking (letter spacing) of an element.",
+        "table": [
+          [
+            ".tracking-tight",
+            "letter-spacing: -0.05em;"
+          ],
+          [
+            ".tracking-normal",
+            "letter-spacing: 0;"
+          ],
+          [
+            ".tracking-wide",
+            "letter-spacing: 0.05em;"
+          ]
+        ]
+      },
+      {
+        "title": "Line Height",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/line-height",
+        "description": "Utilities for controlling the leading (line height) of an element.",
+        "table": [
+          [
+            ".leading-none",
+            "line-height: 1;"
+          ],
+          [
+            ".leading-tight",
+            "line-height: 1.25;"
+          ],
+          [
+            ".leading-normal",
+            "line-height: 1.5;"
+          ],
+          [
+            ".leading-loose",
+            "line-height: 2;"
+          ]
+        ]
+      },
+      {
+        "title": "Lists",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/lists",
+        "description": "Utilities for controlling list styles.",
+        "table": [
+          [
+            ".list-reset",
+            "list-style: none; padding: 0;"
+          ]
+        ]
+      },
+      {
+        "title": "Style & Decoration",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/text-style",
+        "description": "Utilities for controlling the style of text.",
+        "table": [
+          [
+            ".italic",
+            "font-style: italic;"
+          ],
+          [
+            ".roman",
+            "font-style: normal;"
+          ],
+          [
+            ".uppercase",
+            "text-transform: uppercase;"
+          ],
+          [
+            ".lowercase",
+            "text-transform: lowercase;"
+          ],
+          [
+            ".capitalize",
+            "text-transform: capitalize;"
+          ],
+          [
+            ".normal-case",
+            "text-transform: none;"
+          ],
+          [
+            ".underline",
+            "text-decoration: underline;"
+          ],
+          [
+            ".line-through",
+            "text-decoration: line-through;"
+          ],
+          [
+            ".no-underline",
+            "text-decoration: none;"
+          ],
+          [
+            ".antialiased",
+            "-webkit-font-smoothing: antialiased;\n-moz-osx-font-smoothing: grayscale;"
+          ],
+          [
+            ".subpixel-antialiased",
+            "-webkit-font-smoothing: auto;\n-moz-osx-font-smoothing: auto;"
+          ]
+        ]
+      },
+      {
+        "title": "Text Alignment",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/text-alignment",
+        "description": "Utilities for controlling the alignment of text.",
+        "table": [
+          [
+            ".text-left",
+            "text-align: left;"
+          ],
+          [
+            ".text-center",
+            "text-align: center;"
+          ],
+          [
+            ".text-right",
+            "text-align: right;"
+          ],
+          [
+            ".text-justify",
+            "text-align: justify;"
+          ]
+        ]
+      },
+      {
+        "title": "Vertical Alignment",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/vertical-alignment",
+        "description": "Utilities for controlling the vertical alignment of an inline or table-cell box.",
+        "table": [
+          [
+            ".align-baseline",
+            "vertical-align: baseline;"
+          ],
+          [
+            ".align-top",
+            "vertical-align: top;"
+          ],
+          [
+            ".align-middle",
+            "vertical-align: middle;"
+          ],
+          [
+            ".align-bottom",
+            "vertical-align: bottom;"
+          ],
+          [
+            ".align-text-top",
+            "vertical-align: text-top;"
+          ],
+          [
+            ".align-text-bottom",
+            "vertical-align: text-bottom;"
+          ]
+        ]
+      },
+      {
+        "title": "Whitespace & Wrapping",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/whitespace-and-wrapping",
+        "description": "Utilities for controlling the whitespace and wrapping of an element.",
+        "table": [
+          [
+            ".whitespace-normal",
+            "white-space: normal;"
+          ],
+          [
+            ".whitespace-no-wrap",
+            "white-space: nowrap;"
+          ],
+          [
+            ".whitespace-pre",
+            "white-space: pre;"
+          ],
+          [
+            ".whitespace-pre-line",
+            "white-space: pre-line;"
+          ],
+          [
+            ".whitespace-pre-wrap",
+            "white-space: pre-wrap;"
+          ],
+          [
+            ".break-words",
+            "word-wrap: break-word;"
+          ],
+          [
+            ".break-normal",
+            "word-wrap: normal;"
+          ],
+          [
+            ".truncate",
+            "overflow: hidden;\ntext-overflow: ellipsis;\nwhite-space: nowrap"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Backgrounds",
+    "content": [
+      {
+        "title": "Background Attachment",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/background-attachment",
+        "description": "Utilities for controlling how a background image behaves when scrolling.",
+        "table": [
+          [
+            ".bg-fixed",
+            "background-attachment: fixed;"
+          ],
+          [
+            ".bg-local",
+            "background-attachment: local;"
+          ],
+          [
+            ".bg-scroll",
+            "background-attachment: scroll;"
+          ]
+        ]
+      },
+      {
+        "title": "Background Color",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/background-color",
+        "description": "Utilities for controlling an element's background color.",
+        "table": [
+          [
+            ".bg-transparent",
+            "background-color: transparent;"
+          ],
+          [
+            ".bg-black",
+            "background-color: #22292f;"
+          ],
+          [
+            ".bg-grey-darkest",
+            "background-color: #3d4852;"
+          ],
+          [
+            ".bg-grey-darker",
+            "background-color: #606f7b;"
+          ],
+          [
+            ".bg-grey-dark",
+            "background-color: #8795a1;"
+          ],
+          [
+            ".bg-grey",
+            "background-color: #b8c2cc;"
+          ],
+          [
+            ".bg-grey-light",
+            "background-color: #dae1e7;"
+          ],
+          [
+            ".bg-grey-lighter",
+            "background-color: #f1f5f8;"
+          ],
+          [
+            ".bg-grey-lightest",
+            "background-color: #f8fafc;"
+          ],
+          [
+            ".bg-white",
+            "background-color: #ffffff;"
+          ],
+          [
+            ".bg-red-darkest",
+            "background-color: #3b0d0c;"
+          ],
+          [
+            ".bg-red-darker",
+            "background-color: #621b18;"
+          ],
+          [
+            ".bg-red-dark",
+            "background-color: #cc1f1a;"
+          ],
+          [
+            ".bg-red",
+            "background-color: #e3342f;"
+          ],
+          [
+            ".bg-red-light",
+            "background-color: #ef5753;"
+          ],
+          [
+            ".bg-red-lighter",
+            "background-color: #f9acaa;"
+          ],
+          [
+            ".bg-red-lightest",
+            "background-color: #fcebea;"
+          ],
+          [
+            ".bg-orange-darkest",
+            "background-color: #462a16;"
+          ],
+          [
+            ".bg-orange-darker",
+            "background-color: #613b1f;"
+          ],
+          [
+            ".bg-orange-dark",
+            "background-color: #de751f;"
+          ],
+          [
+            ".bg-orange",
+            "background-color: #f6993f;"
+          ],
+          [
+            ".bg-orange-light",
+            "background-color: #faad63;"
+          ],
+          [
+            ".bg-orange-lighter",
+            "background-color: #fcd9b6;"
+          ],
+          [
+            ".bg-orange-lightest",
+            "background-color: #fff5eb;"
+          ],
+          [
+            ".bg-yellow-darkest",
+            "background-color: #453411;"
+          ],
+          [
+            ".bg-yellow-darker",
+            "background-color: #684f1d;"
+          ],
+          [
+            ".bg-yellow-dark",
+            "background-color: #f2d024;"
+          ],
+          [
+            ".bg-yellow",
+            "background-color: #ffed4a;"
+          ],
+          [
+            ".bg-yellow-light",
+            "background-color: #fff382;"
+          ],
+          [
+            ".bg-yellow-lighter",
+            "background-color: #fff9c2;"
+          ],
+          [
+            ".bg-yellow-lightest",
+            "background-color: #fcfbeb;"
+          ],
+          [
+            ".bg-green-darkest",
+            "background-color: #0f2f21;"
+          ],
+          [
+            ".bg-green-darker",
+            "background-color: #1a4731;"
+          ],
+          [
+            ".bg-green-dark",
+            "background-color: #1f9d55;"
+          ],
+          [
+            ".bg-green",
+            "background-color: #38c172;"
+          ],
+          [
+            ".bg-green-light",
+            "background-color: #51d88a;"
+          ],
+          [
+            ".bg-green-lighter",
+            "background-color: #a2f5bf;"
+          ],
+          [
+            ".bg-green-lightest",
+            "background-color: #e3fcec;"
+          ],
+          [
+            ".bg-teal-darkest",
+            "background-color: #0d3331;"
+          ],
+          [
+            ".bg-teal-darker",
+            "background-color: #20504f;"
+          ],
+          [
+            ".bg-teal-dark",
+            "background-color: #38a89d;"
+          ],
+          [
+            ".bg-teal",
+            "background-color: #4dc0b5;"
+          ],
+          [
+            ".bg-teal-light",
+            "background-color: #64d5ca;"
+          ],
+          [
+            ".bg-teal-lighter",
+            "background-color: #a0f0ed;"
+          ],
+          [
+            ".bg-teal-lightest",
+            "background-color: #e8fffe;"
+          ],
+          [
+            ".bg-blue-darkest",
+            "background-color: #12283a;"
+          ],
+          [
+            ".bg-blue-darker",
+            "background-color: #1c3d5a;"
+          ],
+          [
+            ".bg-blue-dark",
+            "background-color: #2779bd;"
+          ],
+          [
+            ".bg-blue",
+            "background-color: #3490dc;"
+          ],
+          [
+            ".bg-blue-light",
+            "background-color: #6cb2eb;"
+          ],
+          [
+            ".bg-blue-lighter",
+            "background-color: #bcdefa;"
+          ],
+          [
+            ".bg-blue-lightest",
+            "background-color: #eff8ff;"
+          ],
+          [
+            ".bg-indigo-darkest",
+            "background-color: #191e38;"
+          ],
+          [
+            ".bg-indigo-darker",
+            "background-color: #2f365f;"
+          ],
+          [
+            ".bg-indigo-dark",
+            "background-color: #5661b3;"
+          ],
+          [
+            ".bg-indigo",
+            "background-color: #6574cd;"
+          ],
+          [
+            ".bg-indigo-light",
+            "background-color: #7886d7;"
+          ],
+          [
+            ".bg-indigo-lighter",
+            "background-color: #b2b7ff;"
+          ],
+          [
+            ".bg-indigo-lightest",
+            "background-color: #e6e8ff;"
+          ],
+          [
+            ".bg-purple-darkest",
+            "background-color: #21183c;"
+          ],
+          [
+            ".bg-purple-darker",
+            "background-color: #382b5f;"
+          ],
+          [
+            ".bg-purple-dark",
+            "background-color: #794acf;"
+          ],
+          [
+            ".bg-purple",
+            "background-color: #9561e2;"
+          ],
+          [
+            ".bg-purple-light",
+            "background-color: #a779e9;"
+          ],
+          [
+            ".bg-purple-lighter",
+            "background-color: #d6bbfc;"
+          ],
+          [
+            ".bg-purple-lightest",
+            "background-color: #f3ebff;"
+          ],
+          [
+            ".bg-pink-darkest",
+            "background-color: #451225;"
+          ],
+          [
+            ".bg-pink-darker",
+            "background-color: #6f213f;"
+          ],
+          [
+            ".bg-pink-dark",
+            "background-color: #eb5286;"
+          ],
+          [
+            ".bg-pink",
+            "background-color: #f66d9b;"
+          ],
+          [
+            ".bg-pink-light",
+            "background-color: #fa7ea8;"
+          ],
+          [
+            ".bg-pink-lighter",
+            "background-color: #ffbbca;"
+          ],
+          [
+            ".bg-pink-lightest",
+            "background-color: #ffebef;"
+          ]
+        ]
+      },
+      {
+        "title": "Background Position",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/background-position",
+        "description": "Utilities for controlling the position of an element's background image.",
+        "table": [
+          [
+            ".bg-bottom",
+            "background-position: bottom;"
+          ],
+          [
+            ".bg-center",
+            "background-position: center;"
+          ],
+          [
+            ".bg-left",
+            "background-position: left;"
+          ],
+          [
+            ".bg-left-bottom",
+            "background-position: left bottom;"
+          ],
+          [
+            ".bg-left-top",
+            "background-position: left top;"
+          ],
+          [
+            ".bg-right",
+            "background-position: right;"
+          ],
+          [
+            ".bg-right-bottom",
+            "background-position: right bottom;"
+          ],
+          [
+            ".bg-right-top",
+            "background-position: right top;"
+          ],
+          [
+            ".bg-top",
+            "background-position: top;"
+          ]
+        ]
+      },
+      {
+        "title": "Background Repeat",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/background-repeat",
+        "description": "Utilities for controlling the repetition of an element's background image.",
+        "table": [
+          [
+            ".bg-repeat",
+            "background-repeat: repeat;"
+          ],
+          [
+            ".bg-no-repeat",
+            "background-repeat: no-repeat;"
+          ],
+          [
+            ".bg-repeat-x",
+            "background-repeat: repeat-x;"
+          ],
+          [
+            ".bg-repeat-y",
+            "background-repeat: repeat-y;"
+          ]
+        ]
+      },
+      {
+        "title": "Background Size",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/background-size",
+        "description": "Utilities for controlling the background size of an element's background image.",
+        "table": [
+          [
+            ".bg-auto",
+            "background-size: auto;"
+          ],
+          [
+            ".bg-cover",
+            "background-size: cover;"
+          ],
+          [
+            ".bg-contain",
+            "background-size: contain;"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Borders",
+    "content": [
+      {
+        "title": "Border Color",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/border-color",
+        "description": "Utilities for controlling the color of an element's borders.",
+        "table": [
+          [
+            ".border-transparent",
+            "border-color: transparent;"
+          ],
+          [
+            ".border-black",
+            "border-color: #22292f;"
+          ],
+          [
+            ".border-grey-darkest",
+            "border-color: #3d4852;"
+          ],
+          [
+            ".border-grey-darker",
+            "border-color: #606f7b;"
+          ],
+          [
+            ".border-grey-dark",
+            "border-color: #8795a1;"
+          ],
+          [
+            ".border-grey",
+            "border-color: #b8c2cc;"
+          ],
+          [
+            ".border-grey-light",
+            "border-color: #dae1e7;"
+          ],
+          [
+            ".border-grey-lighter",
+            "border-color: #f1f5f8;"
+          ],
+          [
+            ".border-grey-lightest",
+            "border-color: #f8fafc;"
+          ],
+          [
+            ".border-white",
+            "border-color: #ffffff;"
+          ],
+          [
+            ".border-red-darkest",
+            "border-color: #3b0d0c;"
+          ],
+          [
+            ".border-red-darker",
+            "border-color: #621b18;"
+          ],
+          [
+            ".border-red-dark",
+            "border-color: #cc1f1a;"
+          ],
+          [
+            ".border-red",
+            "border-color: #e3342f;"
+          ],
+          [
+            ".border-red-light",
+            "border-color: #ef5753;"
+          ],
+          [
+            ".border-red-lighter",
+            "border-color: #f9acaa;"
+          ],
+          [
+            ".border-red-lightest",
+            "border-color: #fcebea;"
+          ],
+          [
+            ".border-orange-darkest",
+            "border-color: #462a16;"
+          ],
+          [
+            ".border-orange-darker",
+            "border-color: #613b1f;"
+          ],
+          [
+            ".border-orange-dark",
+            "border-color: #de751f;"
+          ],
+          [
+            ".border-orange",
+            "border-color: #f6993f;"
+          ],
+          [
+            ".border-orange-light",
+            "border-color: #faad63;"
+          ],
+          [
+            ".border-orange-lighter",
+            "border-color: #fcd9b6;"
+          ],
+          [
+            ".border-orange-lightest",
+            "border-color: #fff5eb;"
+          ],
+          [
+            ".border-yellow-darkest",
+            "border-color: #453411;"
+          ],
+          [
+            ".border-yellow-darker",
+            "border-color: #684f1d;"
+          ],
+          [
+            ".border-yellow-dark",
+            "border-color: #f2d024;"
+          ],
+          [
+            ".border-yellow",
+            "border-color: #ffed4a;"
+          ],
+          [
+            ".border-yellow-light",
+            "border-color: #fff382;"
+          ],
+          [
+            ".border-yellow-lighter",
+            "border-color: #fff9c2;"
+          ],
+          [
+            ".border-yellow-lightest",
+            "border-color: #fcfbeb;"
+          ],
+          [
+            ".border-green-darkest",
+            "border-color: #0f2f21;"
+          ],
+          [
+            ".border-green-darker",
+            "border-color: #1a4731;"
+          ],
+          [
+            ".border-green-dark",
+            "border-color: #1f9d55;"
+          ],
+          [
+            ".border-green",
+            "border-color: #38c172;"
+          ],
+          [
+            ".border-green-light",
+            "border-color: #51d88a;"
+          ],
+          [
+            ".border-green-lighter",
+            "border-color: #a2f5bf;"
+          ],
+          [
+            ".border-green-lightest",
+            "border-color: #e3fcec;"
+          ],
+          [
+            ".border-teal-darkest",
+            "border-color: #0d3331;"
+          ],
+          [
+            ".border-teal-darker",
+            "border-color: #20504f;"
+          ],
+          [
+            ".border-teal-dark",
+            "border-color: #38a89d;"
+          ],
+          [
+            ".border-teal",
+            "border-color: #4dc0b5;"
+          ],
+          [
+            ".border-teal-light",
+            "border-color: #64d5ca;"
+          ],
+          [
+            ".border-teal-lighter",
+            "border-color: #a0f0ed;"
+          ],
+          [
+            ".border-teal-lightest",
+            "border-color: #e8fffe;"
+          ],
+          [
+            ".border-blue-darkest",
+            "border-color: #12283a;"
+          ],
+          [
+            ".border-blue-darker",
+            "border-color: #1c3d5a;"
+          ],
+          [
+            ".border-blue-dark",
+            "border-color: #2779bd;"
+          ],
+          [
+            ".border-blue",
+            "border-color: #3490dc;"
+          ],
+          [
+            ".border-blue-light",
+            "border-color: #6cb2eb;"
+          ],
+          [
+            ".border-blue-lighter",
+            "border-color: #bcdefa;"
+          ],
+          [
+            ".border-blue-lightest",
+            "border-color: #eff8ff;"
+          ],
+          [
+            ".border-indigo-darkest",
+            "border-color: #191e38;"
+          ],
+          [
+            ".border-indigo-darker",
+            "border-color: #2f365f;"
+          ],
+          [
+            ".border-indigo-dark",
+            "border-color: #5661b3;"
+          ],
+          [
+            ".border-indigo",
+            "border-color: #6574cd;"
+          ],
+          [
+            ".border-indigo-light",
+            "border-color: #7886d7;"
+          ],
+          [
+            ".border-indigo-lighter",
+            "border-color: #b2b7ff;"
+          ],
+          [
+            ".border-indigo-lightest",
+            "border-color: #e6e8ff;"
+          ],
+          [
+            ".border-purple-darkest",
+            "border-color: #21183c;"
+          ],
+          [
+            ".border-purple-darker",
+            "border-color: #382b5f;"
+          ],
+          [
+            ".border-purple-dark",
+            "border-color: #794acf;"
+          ],
+          [
+            ".border-purple",
+            "border-color: #9561e2;"
+          ],
+          [
+            ".border-purple-light",
+            "border-color: #a779e9;"
+          ],
+          [
+            ".border-purple-lighter",
+            "border-color: #d6bbfc;"
+          ],
+          [
+            ".border-purple-lightest",
+            "border-color: #f3ebff;"
+          ],
+          [
+            ".border-pink-darkest",
+            "border-color: #451225;"
+          ],
+          [
+            ".border-pink-darker",
+            "border-color: #6f213f;"
+          ],
+          [
+            ".border-pink-dark",
+            "border-color: #eb5286;"
+          ],
+          [
+            ".border-pink",
+            "border-color: #f66d9b;"
+          ],
+          [
+            ".border-pink-light",
+            "border-color: #fa7ea8;"
+          ],
+          [
+            ".border-pink-lighter",
+            "border-color: #ffbbca;"
+          ],
+          [
+            ".border-pink-lightest",
+            "border-color: #ffebef;"
+          ]
+        ]
+      },
+      {
+        "title": "Border Style",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/border-style",
+        "description": "Utilities for controlling the style of an element's borders.",
+        "table": [
+          [
+            ".border-solid",
+            "border-style: solid;"
+          ],
+          [
+            ".border-dashed",
+            "border-style: dashed;"
+          ],
+          [
+            ".border-dotted",
+            "border-style: dotted;"
+          ],
+          [
+            ".border-none",
+            "border-style: none;"
+          ]
+        ]
+      },
+      {
+        "title": "Border Width",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/border-width",
+        "description": "Utilities for controlling the width of an element's borders.",
+        "table": []
+      },
+      {
+        "title": "Border Radius",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/border-radius",
+        "description": "Utilities for controlling the border radius of an element.",
+        "table": [
+          [
+            ".rounded-none",
+            "border-radius: 0;"
+          ],
+          [
+            ".rounded-sm",
+            "border-radius: .125rem;"
+          ],
+          [
+            ".rounded",
+            "border-radius: .25rem;"
+          ],
+          [
+            ".rounded-lg",
+            "border-radius: .5rem;"
+          ],
+          [
+            ".rounded-full",
+            "border-radius: 9999px;"
+          ],
+          [
+            ".rounded-t-none",
+            "border-top-left-radius: 0;\nborder-top-right-radius: 0;"
+          ],
+          [
+            ".rounded-r-none",
+            "border-top-right-radius: 0;\nborder-bottom-right-radius: 0;"
+          ],
+          [
+            ".rounded-b-none",
+            "border-bottom-right-radius: 0;\nborder-bottom-left-radius: 0;"
+          ],
+          [
+            ".rounded-l-none",
+            "border-top-left-radius: 0;\nborder-bottom-left-radius: 0;"
+          ],
+          [
+            ".rounded-t-sm",
+            "border-top-left-radius: .125rem;\nborder-top-right-radius: .125rem;"
+          ],
+          [
+            ".rounded-r-sm",
+            "border-top-right-radius: .125rem;\nborder-bottom-right-radius: .125rem;"
+          ],
+          [
+            ".rounded-b-sm",
+            "border-bottom-right-radius: .125rem;\nborder-bottom-left-radius: .125rem;"
+          ],
+          [
+            ".rounded-l-sm",
+            "border-top-left-radius: .125rem;\nborder-bottom-left-radius: .125rem;"
+          ],
+          [
+            ".rounded-t",
+            "border-top-left-radius: .25rem;\nborder-top-right-radius: .25rem;"
+          ],
+          [
+            ".rounded-r",
+            "border-top-right-radius: .25rem;\nborder-bottom-right-radius: .25rem;"
+          ],
+          [
+            ".rounded-b",
+            "border-bottom-right-radius: .25rem;\nborder-bottom-left-radius: .25rem;"
+          ],
+          [
+            ".rounded-l",
+            "border-top-left-radius: .25rem;\nborder-bottom-left-radius: .25rem;"
+          ],
+          [
+            ".rounded-t-lg",
+            "border-top-left-radius: .5rem;\nborder-top-right-radius: .5rem;"
+          ],
+          [
+            ".rounded-r-lg",
+            "border-top-right-radius: .5rem;\nborder-bottom-right-radius: .5rem;"
+          ],
+          [
+            ".rounded-b-lg",
+            "border-bottom-right-radius: .5rem;\nborder-bottom-left-radius: .5rem;"
+          ],
+          [
+            ".rounded-l-lg",
+            "border-top-left-radius: .5rem;\nborder-bottom-left-radius: .5rem;"
+          ],
+          [
+            ".rounded-t-full",
+            "border-top-left-radius: 9999px;\nborder-top-right-radius: 9999px;"
+          ],
+          [
+            ".rounded-r-full",
+            "border-top-right-radius: 9999px;\nborder-bottom-right-radius: 9999px;"
+          ],
+          [
+            ".rounded-b-full",
+            "border-bottom-right-radius: 9999px;\nborder-bottom-left-radius: 9999px;"
+          ],
+          [
+            ".rounded-l-full",
+            "border-top-left-radius: 9999px;\nborder-bottom-left-radius: 9999px;"
+          ],
+          [
+            ".rounded-tl-none",
+            "border-top-left-radius: 0;"
+          ],
+          [
+            ".rounded-tr-none",
+            "border-top-right-radius: 0;"
+          ],
+          [
+            ".rounded-br-none",
+            "border-bottom-right-radius: 0;"
+          ],
+          [
+            ".rounded-bl-none",
+            "border-bottom-left-radius: 0;"
+          ],
+          [
+            ".rounded-tl-sm",
+            "border-top-left-radius: .125rem;"
+          ],
+          [
+            ".rounded-tr-sm",
+            "border-top-right-radius: .125rem;"
+          ],
+          [
+            ".rounded-br-sm",
+            "border-bottom-right-radius: .125rem;"
+          ],
+          [
+            ".rounded-bl-sm",
+            "border-bottom-left-radius: .125rem;"
+          ],
+          [
+            ".rounded-tl",
+            "border-top-left-radius: .25rem;"
+          ],
+          [
+            ".rounded-tr",
+            "border-top-right-radius: .25rem;"
+          ],
+          [
+            ".rounded-br",
+            "border-bottom-right-radius: .25rem;"
+          ],
+          [
+            ".rounded-bl",
+            "border-bottom-left-radius: .25rem;"
+          ],
+          [
+            ".rounded-tl-lg",
+            "border-top-left-radius: .5rem;"
+          ],
+          [
+            ".rounded-tr-lg",
+            "border-top-right-radius: .5rem;"
+          ],
+          [
+            ".rounded-br-lg",
+            "border-bottom-right-radius: .5rem;"
+          ],
+          [
+            ".rounded-bl-lg",
+            "border-bottom-left-radius: .5rem;"
+          ],
+          [
+            ".rounded-tl-full",
+            "border-top-left-radius: 9999px;"
+          ],
+          [
+            ".rounded-tr-full",
+            "border-top-right-radius: 9999px;"
+          ],
+          [
+            ".rounded-br-full",
+            "border-bottom-right-radius: 9999px;"
+          ],
+          [
+            ".rounded-bl-full",
+            "border-bottom-left-radius: 9999px;"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Flexbox",
+    "content": [
+      {
+        "title": "Display",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/flexbox-display",
+        "description": "Utilities for creating flex containers.",
+        "table": [
+          [
+            ".flex",
+            "display: flex;"
+          ],
+          [
+            ".inline-flex",
+            "display: inline-flex;"
+          ]
+        ]
+      },
+      {
+        "title": "Flex Direction",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/flexbox-direction",
+        "description": "Utilities for controlling the direction of flex items.",
+        "table": [
+          [
+            ".flex-row",
+            "flex-direction: row;"
+          ],
+          [
+            ".flex-row-reverse",
+            "flex-direction: row-reverse;"
+          ],
+          [
+            ".flex-col",
+            "flex-direction: column;"
+          ],
+          [
+            ".flex-col-reverse",
+            "flex-direction: column-reverse;"
+          ]
+        ]
+      },
+      {
+        "title": "Flex Wrapping",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/flexbox-wrapping",
+        "description": "Utilities for controlling how flex items wrap.",
+        "table": [
+          [
+            ".flex-no-wrap",
+            "flex-wrap: nowrap;"
+          ],
+          [
+            ".flex-wrap",
+            "flex-wrap: wrap;"
+          ],
+          [
+            ".flex-wrap-reverse",
+            "flex-wrap: wrap-reverse;"
+          ]
+        ]
+      },
+      {
+        "title": "Align Items",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/flexbox-align-items",
+        "description": "Utilities for controlling how flex items are positioned along a container's cross axis.",
+        "table": [
+          [
+            ".items-stretch",
+            "align-items: stretch;"
+          ],
+          [
+            ".items-start",
+            "align-items: flex-start;"
+          ],
+          [
+            ".items-center",
+            "align-items: center;"
+          ],
+          [
+            ".items-end",
+            "align-items: flex-end;"
+          ],
+          [
+            ".items-baseline",
+            "align-items: baseline;"
+          ]
+        ]
+      },
+      {
+        "title": "Align Content",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/flexbox-align-content",
+        "description": "Utilities for controlling how lines are positioned in multi-line flex containers.",
+        "table": [
+          [
+            ".content-start",
+            "align-content: flex-start;"
+          ],
+          [
+            ".content-center",
+            "align-content: center;"
+          ],
+          [
+            ".content-end",
+            "align-content: flex-end;"
+          ],
+          [
+            ".content-between",
+            "align-content: space-between;"
+          ],
+          [
+            ".content-around",
+            "align-content: space-around;"
+          ]
+        ]
+      },
+      {
+        "title": "Align Self",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/flexbox-align-self",
+        "description": "Utilities for controlling how an individual flex item is positioned along its container's cross axis.",
+        "table": [
+          [
+            ".self-auto",
+            "align-self: auto;"
+          ],
+          [
+            ".self-start",
+            "align-self: flex-start;"
+          ],
+          [
+            ".self-center",
+            "align-self: center;"
+          ],
+          [
+            ".self-end",
+            "align-self: flex-end;"
+          ],
+          [
+            ".self-stretch",
+            "align-self: stretch;"
+          ]
+        ]
+      },
+      {
+        "title": "Justify Content",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/flexbox-justify-content",
+        "description": "Utilities for controlling how flex items are positioned along a container's main axis.",
+        "table": [
+          [
+            ".justify-start",
+            "justify-content: flex-start;"
+          ],
+          [
+            ".justify-center",
+            "justify-content: center;"
+          ],
+          [
+            ".justify-end",
+            "justify-content: flex-end;"
+          ],
+          [
+            ".justify-between",
+            "justify-content: space-between;"
+          ],
+          [
+            ".justify-around",
+            "justify-content: space-around;"
+          ]
+        ]
+      },
+      {
+        "title": "Flex, Grow, & Shrink",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/flexbox-flex-grow-shrink",
+        "description": "Utilities for controlling how flex items grow and shrink.",
+        "table": [
+          [
+            ".flex-initial",
+            "flex: initial;"
+          ],
+          [
+            ".flex-1",
+            "flex: 1;"
+          ],
+          [
+            ".flex-auto",
+            "flex: auto;"
+          ],
+          [
+            ".flex-none",
+            "flex: none;"
+          ],
+          [
+            ".flex-grow",
+            "flex-grow: 1;"
+          ],
+          [
+            ".flex-shrink",
+            "flex-shrink: 1;"
+          ],
+          [
+            ".flex-no-grow",
+            "flex-grow: 0;"
+          ],
+          [
+            ".flex-no-shrink",
+            "flex-shrink: 0;"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Spacing",
+    "content": [
+      {
+        "title": "Margin & Padding",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/spacing",
+        "description": "Utilities for controlling an element's padding and margin.",
+        "table": [
+          [
+            ".p{side?}-{size}",
+            "p{side?}-{size}:space;"
+          ],
+          [
+            ".m{side?}-{size}",
+            "m{side?}-{size}:space;"
+          ],
+          [
+            ".-m{side?}-{size}",
+            "-m{side?}-{size}:space;"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Sizing",
+    "content": [
+      {
+        "title": "Width",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/width",
+        "description": "Utilities for setting the width of an element",
+        "table": [
+          [
+            ".w-1",
+            "width: 0.25rem;"
+          ],
+          [
+            ".w-2",
+            "width: 0.5rem;"
+          ],
+          [
+            ".w-3",
+            "width: 0.75rem;"
+          ],
+          [
+            ".w-4",
+            "width: 1rem;"
+          ],
+          [
+            ".w-6",
+            "width: 1.5rem;"
+          ],
+          [
+            ".w-8",
+            "width: 2rem;"
+          ],
+          [
+            ".w-10",
+            "width: 2.5rem;"
+          ],
+          [
+            ".w-12",
+            "width: 3rem;"
+          ],
+          [
+            ".w-16",
+            "width: 4rem;"
+          ],
+          [
+            ".w-24",
+            "width: 6rem;"
+          ],
+          [
+            ".w-32",
+            "width: 8rem;"
+          ],
+          [
+            ".w-48",
+            "width: 12rem;"
+          ],
+          [
+            ".w-64",
+            "width: 16rem;"
+          ],
+          [
+            ".w-auto",
+            "width: auto;"
+          ],
+          [
+            ".w-px",
+            "width: 1px;"
+          ],
+          [
+            ".w-1/2",
+            "width: 50%;"
+          ],
+          [
+            ".w-1/3",
+            "width: 33.33333%;"
+          ],
+          [
+            ".w-2/3",
+            "width: 66.66667%;"
+          ],
+          [
+            ".w-1/4",
+            "width: 25%;"
+          ],
+          [
+            ".w-3/4",
+            "width: 75%;"
+          ],
+          [
+            ".w-1/5",
+            "width: 20%;"
+          ],
+          [
+            ".w-2/5",
+            "width: 40%;"
+          ],
+          [
+            ".w-3/5",
+            "width: 60%;"
+          ],
+          [
+            ".w-4/5",
+            "width: 80%;"
+          ],
+          [
+            ".w-1/6",
+            "width: 16.66667%;"
+          ],
+          [
+            ".w-5/6",
+            "width: 83.33333%;"
+          ],
+          [
+            ".w-full",
+            "width: 100%;"
+          ],
+          [
+            ".w-screen",
+            "width: 100vw;"
+          ]
+        ]
+      },
+      {
+        "title": "Min-Width",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/min-width",
+        "description": "Utilities for setting the minimum width of an element",
+        "table": [
+          [
+            ".min-w-0",
+            "min-width: 0;"
+          ],
+          [
+            ".min-w-full",
+            "min-width: 100%;"
+          ]
+        ]
+      },
+      {
+        "title": "Max-Width",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/max-width",
+        "description": "Utilities for setting the maximum width of an element",
+        "table": [
+          [
+            ".max-w-xs",
+            "max-width: 20rem;"
+          ],
+          [
+            ".max-w-sm",
+            "max-width: 30rem;"
+          ],
+          [
+            ".max-w-md",
+            "max-width: 40rem;"
+          ],
+          [
+            ".max-w-lg",
+            "max-width: 50rem;"
+          ],
+          [
+            ".max-w-xl",
+            "max-width: 60rem;"
+          ],
+          [
+            ".max-w-2xl",
+            "max-width: 70rem;"
+          ],
+          [
+            ".max-w-3xl",
+            "max-width: 80rem;"
+          ],
+          [
+            ".max-w-4xl",
+            "max-width: 90rem;"
+          ],
+          [
+            ".max-w-5xl",
+            "max-width: 100rem;"
+          ],
+          [
+            ".max-w-full",
+            "max-width: 100%;"
+          ]
+        ]
+      },
+      {
+        "title": "Height",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/height",
+        "description": "Utilities for setting the height of an element",
+        "table": [
+          [
+            ".h-1",
+            "height: 0.25rem;"
+          ],
+          [
+            ".h-2",
+            "height: 0.5rem;"
+          ],
+          [
+            ".h-3",
+            "height: 0.75rem;"
+          ],
+          [
+            ".h-4",
+            "height: 1rem;"
+          ],
+          [
+            ".h-6",
+            "height: 1.5rem;"
+          ],
+          [
+            ".h-8",
+            "height: 2rem;"
+          ],
+          [
+            ".h-10",
+            "height: 2.5rem;"
+          ],
+          [
+            ".h-12",
+            "height: 3rem;"
+          ],
+          [
+            ".h-16",
+            "height: 4rem;"
+          ],
+          [
+            ".h-24",
+            "height: 6rem;"
+          ],
+          [
+            ".h-32",
+            "height: 8rem;"
+          ],
+          [
+            ".h-48",
+            "height: 12rem;"
+          ],
+          [
+            ".h-64",
+            "height: 16rem;"
+          ],
+          [
+            ".h-auto",
+            "height: auto;"
+          ],
+          [
+            ".h-px",
+            "height: 1px;"
+          ],
+          [
+            ".h-full",
+            "height: 100%;"
+          ],
+          [
+            ".h-screen",
+            "height: 100vh;"
+          ]
+        ]
+      },
+      {
+        "title": "Min-Height",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/min-height",
+        "description": "Utilities for setting the minimum height of an element",
+        "table": [
+          [
+            ".min-h-0",
+            "min-height: 0;"
+          ],
+          [
+            ".min-h-full",
+            "min-height: 100%;"
+          ],
+          [
+            ".min-h-screen",
+            "min-height: 100vh;"
+          ]
+        ]
+      },
+      {
+        "title": "Max-Height",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/max-height",
+        "description": "Utilities for setting the maximum height of an element",
+        "table": [
+          [
+            ".max-h-full",
+            "max-height: 100%;"
+          ],
+          [
+            ".max-h-screen",
+            "max-height: 100vh;"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Tables",
+    "content": [
+      {
+        "title": "Border Collapse",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/border-collapse",
+        "description": "Utilities for controlling whether table borders should collapse or be separated.",
+        "table": [
+          [
+            ".border-collapse",
+            "border-collapse: collapse;"
+          ],
+          [
+            ".border-separate",
+            "border-collapse: separate;"
+          ]
+        ]
+      },
+      {
+        "title": "Table Layout",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/table-layout",
+        "description": "Utilities for controlling the table layout algorithm.",
+        "table": [
+          [
+            ".table-auto",
+            "table-layout: auto;"
+          ],
+          [
+            ".table-fixed",
+            "table-layout: fixed;"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Effects",
+    "content": [
+      {
+        "title": "Box Shadow",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/shadows",
+        "description": "Utilities for controlling the box shadow of an element.",
+        "table": [
+          [
+            ".shadow",
+            "box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);"
+          ],
+          [
+            ".shadow-md",
+            "box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),\n            0 2px 4px 0 rgba(0,0,0,0.08);"
+          ],
+          [
+            ".shadow-lg",
+            "box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),\n            0 5px 15px 0 rgba(0,0,0,0.08);"
+          ],
+          [
+            ".shadow-inner",
+            "box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.06);"
+          ],
+          [
+            ".shadow-outline",
+            "box-shadow: 0 0 0 3px rgba(52,144,220,0.5);"
+          ],
+          [
+            ".shadow-none",
+            "box-shadow: none;"
+          ]
+        ]
+      },
+      {
+        "title": "Opacity",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/opacity",
+        "description": "Utilities for controlling the opacity of an element.",
+        "table": [
+          [
+            ".opacity-100",
+            "opacity: 1;"
+          ],
+          [
+            ".opacity-75",
+            "opacity: .75;"
+          ],
+          [
+            ".opacity-50",
+            "opacity: .5;"
+          ],
+          [
+            ".opacity-25",
+            "opacity: .25;"
+          ],
+          [
+            ".opacity-0",
+            "opacity: 0;"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Interactivity",
+    "content": [
+      {
+        "title": "Appearance",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/appearance",
+        "description": "Utilities for suppressing native form control styling.",
+        "table": [
+          [
+            ".appearance-none",
+            "appearance: none;"
+          ]
+        ]
+      },
+      {
+        "title": "Cursor",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/cursor",
+        "description": "Utilities for controlling the cursor style when hovering over an element.",
+        "table": [
+          [
+            ".cursor-auto",
+            "cursor: auto;"
+          ],
+          [
+            ".cursor-default",
+            "cursor: default;"
+          ],
+          [
+            ".cursor-pointer",
+            "cursor: pointer;"
+          ],
+          [
+            ".cursor-wait",
+            "cursor: wait;"
+          ],
+          [
+            ".cursor-move",
+            "cursor: move;"
+          ],
+          [
+            ".cursor-not-allowed",
+            "cursor: not-allowed;"
+          ]
+        ]
+      },
+      {
+        "title": "Outline",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/outline",
+        "description": "Utilities for controlling an element's outline.",
+        "table": [
+          [
+            ".outline-none",
+            "outline: 0;"
+          ]
+        ]
+      },
+      {
+        "title": "Pointer Events",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/pointer-events",
+        "description": "Utilities for controlling whether an element responds to pointer events.",
+        "table": [
+          [
+            ".pointer-events-none",
+            "pointer-events: none;"
+          ],
+          [
+            ".pointer-events-auto",
+            "pointer-events: auto;"
+          ]
+        ]
+      },
+      {
+        "title": "Resize",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/resize",
+        "description": "Utilities for controlling how an element can be resized.",
+        "table": [
+          [
+            ".resize-none",
+            "resize: none;"
+          ],
+          [
+            ".resize",
+            "resize: both;"
+          ],
+          [
+            ".resize-y",
+            "resize: vertical;"
+          ],
+          [
+            ".resize-x",
+            "resize: horizontal;"
+          ]
+        ]
+      },
+      {
+        "title": "User Select",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/user-select",
+        "description": "Utilities for controlling whether the user can select text in an element.",
+        "table": [
+          [
+            ".select-none",
+            "user-select: none;"
+          ],
+          [
+            ".select-text",
+            "user-select: text;"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SVG",
+    "content": [
+      {
+        "title": "Fill & Stroke",
+        "docs": "https://tailwindcss-v0.netlify.app//docs/svg",
+        "description": "Utilities for styling SVG elements.",
+        "table": [
+          [
+            ".fill-current",
+            "fill: currentColor;"
+          ],
+          [
+            ".stroke-current",
+            "stroke: currentColor;"
+          ]
+        ]
+      }
+    ]
+  }
+]

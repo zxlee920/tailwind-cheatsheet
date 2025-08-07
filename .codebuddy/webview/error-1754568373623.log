@@ -1,0 +1,4 @@
+Webview errors at url: http://localhost:3000/
+error: 
+ [Window Error]: [javascript-error]: JavaScript Error: Uncaught SyntaxError: The requested module '/src/images/logo.svg?import' does not provide an export named 'ReactComponent' | Url: http://localhost:3000/src/components/searchBar.tsx | File: http://localhost:3000/src/components/searchBar.tsx:19:10
+Uncaught SyntaxError: The requested module '/src/images/logo.svg?import' does not provide an export named 'ReactComponent'
