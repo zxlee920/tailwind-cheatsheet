@@ -15,7 +15,7 @@
 
 ## 🚀 在线预览
 
-访问 [Tailwind CSS Cheat Sheet](https://tailwindcss-cheatsheet.com) 查看在线版本。
+访问 [tailwindcsscheatsheets.com](https://tailwindcsscheatsheets.com) 查看在线版本。
 
 ## 📦 技术栈
 
