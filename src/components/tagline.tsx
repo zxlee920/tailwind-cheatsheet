@@ -12,7 +12,7 @@ const Tagline = () => {
         if (path === '/v2') return ' V2';
         if (path === '/v1') return ' V1';
         if (path === '/v0') return ' V0';
-        return ' V4 & V3'; // 默认首页显示
+        return ''; // 默认首页显示
     };
 
     return (
