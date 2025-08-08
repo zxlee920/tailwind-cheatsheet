@@ -1,18 +1,23 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
 
-const Tagline = () => {
-    const location = useLocation();
-    
-    // 根据路径获取版本号
+interface TaglineProps {
+    currentVersion?: string;
+}
+
+const Tagline: React.FC<TaglineProps> = ({ currentVersion }) => {
+    // 根据当前版本获取版本号显示文本
     const getVersionText = () => {
-        const path = location.pathname;
-        if (path === '/v4') return ' V4';
-        if (path === '/v3') return ' V3';
-        if (path === '/v2') return ' V2';
-        if (path === '/v1') return ' V1';
-        if (path === '/v0') return ' V0';
-        return ''; // 默认首页显示
+        if (!currentVersion) return '';
+        
+        const versionMap: { [key: string]: string } = {
+            '4.1': ' V4',
+            '3.4.17': ' V3', 
+            '2.2.19': ' V2',
+            '1.9.6': ' V1',
+            '0.7.4': ' V0'
+        };
+        
+        return versionMap[currentVersion] || '';
     };
 
     return (
