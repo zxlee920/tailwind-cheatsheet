@@ -5,6 +5,7 @@ import Category from '../modules/models/category';
 import Subcategory from '../modules/models/subcategory';
 
 import { trackView, trackSearch } from '../utils/googleAnalytics';
+import { updatePageMetadata, initializePageMetadata } from '../utils/seoUtils';
 
 import SearchBar from '../components/searchBar';
 import Categories from '../components/categories';
@@ -13,85 +14,6 @@ import Tagline from '../components/tagline';
 
 // 预加载默认版本数据（v4.1）
 import v41Data from '../modules/v4.1.json';
-
-// SEO 更新函数
-const updateSEO = (version: string) => {
-    const versionMap: { [key: string]: { display: string, number: string } } = {
-        '4.1': { display: 'V4', number: 'v4' },
-        '3.4.17': { display: 'V3', number: 'v3' },
-        '2.2.19': { display: 'V2', number: 'v2' },
-        '1.9.6': { display: 'V1', number: 'v1' },
-        '0.7.4': { display: 'V0', number: 'v0' }
-    };
-    
-    const versionInfo = versionMap[version] || { display: 'V4', number: 'v4' };
-    const baseUrl = 'https://tailwindcheatsheets.com';
-    
-    // 更新页面标题
-    document.title = `Tailwind CSS ${versionInfo.display} Cheat Sheet | Tailwind Reference Manual`;
-    
-    // 更新描述
-    const description = `Tailwind CSS ${versionInfo.display} Cheat Sheet - A comprehensive reference guide for Tailwind CSS ${version} classes and utilities`;
-    
-    // 更新 meta description
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-        metaDescription.setAttribute('content', description);
-    }
-    
-    // 更新 canonical URL
-    const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) {
-        canonical.setAttribute('href', `${baseUrl}/${versionInfo.number}`);
-    }
-    
-    // 更新 Open Graph
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) {
-        ogTitle.setAttribute('content', `Tailwind CSS ${versionInfo.display} Cheat Sheet | Tailwind Reference Manual`);
-    }
-    
-    const ogDescription = document.querySelector('meta[property="og:description"]');
-    if (ogDescription) {
-        ogDescription.setAttribute('content', description);
-    }
-    
-    const ogUrl = document.querySelector('meta[property="og:url"]');
-    if (ogUrl) {
-        ogUrl.setAttribute('content', `${baseUrl}/${versionInfo.number}`);
-    }
-    
-    // 更新 Twitter/X
-    const twitterTitle = document.querySelector('meta[property="twitter:title"]');
-    if (twitterTitle) {
-        twitterTitle.setAttribute('content', `Tailwind CSS ${versionInfo.display} Cheat Sheet | Tailwind Reference Manual`);
-    }
-    
-    const twitterDescription = document.querySelector('meta[property="twitter:description"]');
-    if (twitterDescription) {
-        twitterDescription.setAttribute('content', description);
-    }
-    
-    const twitterUrl = document.querySelector('meta[property="twitter:url"]');
-    if (twitterUrl) {
-        twitterUrl.setAttribute('content', `${baseUrl}/${versionInfo.number}`);
-    }
-    
-    // 更新 Schema.org JSON-LD
-    const schemaScript = document.querySelector('script[type="application/ld+json"]');
-    if (schemaScript) {
-        try {
-            const schema = JSON.parse(schemaScript.textContent || '{}');
-            schema.name = `Tailwind CSS ${versionInfo.display} Cheat Sheets`;
-            schema.url = `${baseUrl}/${versionInfo.number}`;
-            schema.description = `Tailwind CSS ${versionInfo.display} Cheat Sheet - A comprehensive reference guide for Tailwind CSS ${version} classes and utilities, fully compatible with ${versionInfo.number} and all previous stable versions.`;
-            schema.potentialAction.target = `${baseUrl}/${versionInfo.number}`;
-            schemaScript.textContent = JSON.stringify(schema, null, 2);
-        } catch (error) {
-            console.error('Error updating schema:', error);
-        }
-    }
-};
 
 const Home = () => {
     const location = useLocation();
@@ -126,14 +48,14 @@ const Home = () => {
         const pathVersion = getVersionFromPath(location.pathname);
         if (pathVersion !== currentVersion) {
             setCurrentVersion(pathVersion);
-            // 更新 SEO 信息
-            updateSEO(pathVersion);
             // 立即加载对应版本的数据
             const loadData = async () => {
                 const newData = await loadVersionData(pathVersion);
                 setJson(newData);
                 setCheatsheet(newData);
                 localStorage.setItem('tailwindVersion', pathVersion);
+                // 更新页面 SEO 元数据
+                updatePageMetadata(pathVersion);
             };
             loadData();
         }
@@ -145,7 +67,15 @@ const Home = () => {
 
     useEffect(() => {
         trackView('/cheatsheet');
+        // 初始化页面元数据，使用当前路径确定的版本
+        const pathVersion = getVersionFromPath(location.pathname);
+        initializePageMetadata(pathVersion);
     }, []);
+    
+    // 确保在 currentVersion 变化时立即更新 SEO 元数据
+    useEffect(() => {
+        updatePageMetadata(currentVersion);
+    }, [currentVersion]);
     
     // 动态加载版本数据
     const loadVersionData = async (version: string) => {
@@ -195,8 +125,8 @@ const Home = () => {
             setCheatsheet(newData);
             // 保存当前选择的版本到 localStorage
             localStorage.setItem('tailwindVersion', currentVersion);
-            // 更新 SEO 信息
-            updateSEO(currentVersion);
+            // 更新页面 SEO 元数据
+            updatePageMetadata(currentVersion);
         };
         
         loadData();
@@ -205,8 +135,6 @@ const Home = () => {
     // 处理版本变更
     const handleVersionChange = (version: string) => {
         setCurrentVersion(version);
-        // 更新 SEO 信息
-        updateSEO(version);
         // 同时更新 URL 路径
         const versionPathMap: { [key: string]: string } = {
             '4.1': '/v4',
