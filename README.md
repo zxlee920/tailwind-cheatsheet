@@ -104,6 +104,15 @@ tailwind-cheatsheet/
 - v1.9.6
 - v0.7.4
 
+### 测试部署
+部署完成后，请测试以下URL是否正常访问：
+- https://tailwindcheatsheets.com/
+- https://tailwindcheatsheets.com/v4
+- https://tailwindcheatsheets.com/v3
+- https://tailwindcheatsheets.com/v2
+- https://tailwindcheatsheets.com/v1
+- https://tailwindcheatsheets.com/v0
+  
 ### 搜索功能
 - 支持按类名、描述、属性值搜索
 - 实时搜索结果高亮
