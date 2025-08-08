@@ -163,10 +163,10 @@ node scripts/puppeteerCrawler.js
 
 ## 📊 统计
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/tailwind-cheatsheet?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/tailwind-cheatsheet?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/tailwind-cheatsheet)
-![GitHub license](https://img.shields.io/github/license/yourusername/tailwind-cheatsheet)
+![GitHub stars](https://img.shields.io/github/stars/zxlee920/tailwind-cheatsheet?style=social)
+![GitHub forks](https://img.shields.io/github/forks/zxlee920/tailwind-cheatsheet?style=social)
+![GitHub issues](https://img.shields.io/github/issues/zxlee920/tailwind-cheatsheet)
+![GitHub license](https://img.shields.io/github/license/zxlee920/tailwind-cheatsheet)
 
 ---
 
