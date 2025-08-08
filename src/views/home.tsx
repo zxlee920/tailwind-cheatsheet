@@ -211,7 +211,7 @@ const Home = () => {
                 availableVersions={availableVersions}
                 onVersionChange={handleVersionChange}
             />
-            <Tagline />
+            <Tagline currentVersion={currentVersion} />
             <Categories cheatsheet={cheatsheet} />
             <Footer />
         </main>
