@@ -104,9 +104,7 @@ tailwind-cheatsheet/
 - v1.9.6
 - v0.7.4
 
-### 测试部署
-部署完成后，请测试以下URL是否正常访问：
-- https://tailwindcheatsheets.com/
+不同版本分别对应下面的url
 - https://tailwindcheatsheets.com/v4
 - https://tailwindcheatsheets.com/v3
 - https://tailwindcheatsheets.com/v2
