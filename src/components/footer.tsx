@@ -12,34 +12,34 @@ const Footer = () => (
                             to="/v4" 
                             className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 transition-colors duration-200"
                         >
-                            Cheat Sheet V4
+                            CheatSheet V4
                         </Link>
                         <Link 
                             to="/v3" 
                             className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 transition-colors duration-200"
                         >
-                            Cheat Sheet V3
+                            CheatSheet V3
                         </Link>
                         <Link 
                             to="/v2" 
                             className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 transition-colors duration-200"
                         >
-                            Cheat Sheet V2
+                            CheatSheet V2
                         </Link>
                         <Link 
                             to="/v1" 
                             className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 transition-colors duration-200"
                         >
-                            Cheat Sheet V1
+                            CheatSheet V1
                         </Link>
                         <Link 
                             to="/v0" 
                             className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 transition-colors duration-200"
                         >
-                            Cheat Sheet V0
+                            CheatSheet V0
                         </Link>
                     </div>
-                    <p className="text-sm text-gray-600 dark:text-gray-200">© Copyright {(new Date().getFullYear())}. Tailwind Cheat Sheets</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-200">© Copyright {(new Date().getFullYear())}. Tail Cheat Sheet</p>
                 </div>
             </div>
         </div>
