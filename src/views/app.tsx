@@ -2,6 +2,8 @@ import React, { Component, useEffect } from 'react';
 import { Switch, Route } from "react-router-dom";
 import Home from './home';
 import NoMatch from './no_match';
+import Terms from './terms';
+import Privacy from './privacy';
 import ReactGA from 'react-ga';
 
 class App extends Component {
@@ -45,6 +47,12 @@ class App extends Component {
                 </Route>
                 <Route exact path="/v0">
                     <Home />
+                </Route>
+                <Route exact path="/terms">
+                    <Terms />
+                </Route>
+                <Route exact path="/privacy">
+                    <Privacy />
                 </Route>
                 <Route path="*">
                     <NoMatch />
