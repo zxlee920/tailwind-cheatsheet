@@ -9,55 +9,59 @@ const Terms = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">1. Acceptance of Terms</h2>
                     <p className="text-gray-700 dark:text-gray-300 mb-4">
-                        By accessing and using the Tailwind Cheat Sheets website, you accept and agree to be bound by the terms and provision of this agreement.
+                        By accessing and using the Tail Cheat Sheet website, you accept and agree to be bound by the terms and provision of this agreement.
                     </p>
                 </section>
 
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">2. Use License</h2>
                     <p className="text-gray-700 dark:text-gray-300 mb-4">
-                        Permission is granted to temporarily download one copy of the materials on Tailwind Cheat Sheets for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+                        Permission is granted to use, copy, modify, and distribute the materials on Tail Cheat Sheet for both personal and commercial purposes. This is a liberal license that allows you to:
                     </p>
                     <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mb-4 ml-4">
-                        <li>modify or copy the materials</li>
-                        <li>use the materials for any commercial purpose or for any public display</li>
-                        <li>attempt to reverse engineer any software contained on the website</li>
-                        <li>remove any copyright or other proprietary notations from the materials</li>
+                        <li>Use the materials for personal projects</li>
+                        <li>Use the materials for commercial purposes</li>
+                        <li>Modify and adapt the materials to your needs</li>
+                        <li>Share and distribute the materials</li>
+                        <li>Create derivative works based on the materials</li>
                     </ul>
+                    <p className="text-gray-700 dark:text-gray-300 mb-4">
+                        We only ask that you provide attribution when possible, though it is not required.
+                    </p>
                 </section>
 
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">3. Disclaimer</h2>
                     <p className="text-gray-700 dark:text-gray-300 mb-4">
-                        The materials on Tailwind Cheat Sheets are provided on an 'as is' basis. Tailwind Cheat Sheets makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+                        The materials on Tail Cheat Sheet are provided on an 'as is' basis. Tail Cheat Sheet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
                     </p>
                 </section>
 
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">4. Limitations</h2>
                     <p className="text-gray-700 dark:text-gray-300 mb-4">
-                        In no event shall Tailwind Cheat Sheets or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Tailwind Cheat Sheets, even if Tailwind Cheat Sheets or an authorized representative has been notified orally or in writing of the possibility of such damage.
+                        In no event shall Tail Cheat Sheet or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Tail Cheat Sheet, even if Tail Cheat Sheet or an authorized representative has been notified orally or in writing of the possibility of such damage.
                     </p>
                 </section>
 
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">5. Accuracy of Materials</h2>
                     <p className="text-gray-700 dark:text-gray-300 mb-4">
-                        The materials appearing on Tailwind Cheat Sheets could include technical, typographical, or photographic errors. Tailwind Cheat Sheets does not warrant that any of the materials on its website are accurate, complete, or current. Tailwind Cheat Sheets may make changes to the materials contained on its website at any time without notice.
+                        The materials appearing on Tail Cheat Sheet could include technical, typographical, or photographic errors. Tail Cheat Sheet does not warrant that any of the materials on its website are accurate, complete, or current. Tail Cheat Sheet may make changes to the materials contained on its website at any time without notice.
                     </p>
                 </section>
 
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">6. Links</h2>
                     <p className="text-gray-700 dark:text-gray-300 mb-4">
-                        Tailwind Cheat Sheets has not reviewed all of the sites linked to our website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Tailwind Cheat Sheets of the site. Use of any such linked website is at the user's own risk.
+                        Tail Cheat Sheet has not reviewed all of the sites linked to our website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Tail Cheat Sheet of the site. Use of any such linked website is at the user's own risk.
                     </p>
                 </section>
 
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">7. Modifications</h2>
                     <p className="text-gray-700 dark:text-gray-300 mb-4">
-                        Tailwind Cheat Sheets may revise these terms of service for its website at any time without notice. By using this website, you are agreeing to be bound by the then current version of these terms of service.
+                        Tail Cheat Sheet may revise these terms of service for its website at any time without notice. By using this website, you are agreeing to be bound by the then current version of these terms of service.
                     </p>
                 </section>
 

@@ -9,7 +9,7 @@ const Privacy = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">1. Information We Collect</h2>
                     <p className="text-gray-700 dark:text-gray-300 mb-4">
-                        Tailwind Cheat Sheets is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website.
+                        Tail Cheat Sheet is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website.
                     </p>
                     <h3 className="text-xl font-medium text-gray-800 dark:text-gray-200 mb-3">Information Automatically Collected</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-4">
