@@ -15,7 +15,7 @@
 
 ## 🚀 在线访问
 
-访问 [https://tailcheatsheet.top](https://tailcheatsheet.top) 体验完整功能。
+访问 [https://tailwindcheatsheets.com](https://tailwindcheatsheets.com) 体验完整功能。
 
 ## 📦 技术栈
 
