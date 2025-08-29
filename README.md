@@ -105,11 +105,11 @@ tailwind-cheatsheet/
 - v0.7.4
 
 不同版本分别对应下面的url
-- https://tailcheatsheet.top/v4
-- https://tailcheatsheet.top/v3
-- https://tailcheatsheet.top/v2
-- https://tailcheatsheet.top/v1
-- https://tailcheatsheet.top/v0
+- https://tailwindcheatsheets.com/v4
+- https://tailwindcheatsheets.com/v3
+- https://tailwindcheatsheets.com/v2
+- https://tailwindcheatsheets.com/v1
+- https://tailwindcheatsheets.com/v0
   
 ### 搜索功能
 - 支持按类名、描述、属性值搜索
