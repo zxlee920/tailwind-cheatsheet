@@ -1,4 +1,4 @@
-# Tailwind CSS Cheat Sheet
+# Tailwind CSS Cheat Sheet-谷歌Adsense广告优化版（窄屏多点对联广告）
 
 一个现代化的 Tailwind CSS 速查表和参考手册，支持多个版本的 Tailwind CSS，提供快速搜索和便捷的类名查找功能。
 
