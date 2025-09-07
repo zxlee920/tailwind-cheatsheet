@@ -218,15 +218,17 @@ const Home = () => {
 
     return (
         <main className="tracking-wide font-roboto min-h-screen grid content-start dark:bg-gray-900">
-            <SearchBar 
-                searchFilter={search} 
-                currentVersion={currentVersion}
-                availableVersions={availableVersions}
-                onVersionChange={handleVersionChange}
-            />
-            <Tagline currentVersion={currentVersion} />
-            <Categories cheatsheet={cheatsheet} />
-            <Footer />
+            <div className="max-w-6xl mx-auto w-full">
+                <SearchBar 
+                    searchFilter={search} 
+                    currentVersion={currentVersion}
+                    availableVersions={availableVersions}
+                    onVersionChange={handleVersionChange}
+                />
+                <Tagline currentVersion={currentVersion} />
+                <Categories cheatsheet={cheatsheet} />
+                <Footer />
+            </div>
         </main>
     );
 }
