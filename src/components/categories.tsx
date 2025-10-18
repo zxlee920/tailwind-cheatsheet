@@ -7,7 +7,7 @@ const Categories = ({ cheatsheet } : { cheatsheet: Category[] }) => {
     return (
         <Masonry
             breakpointCols={{
-                default: 4,
+                default: 3,
                 1280: 3,
                 1024: 2,
                 768: 2,

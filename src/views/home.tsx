@@ -218,7 +218,7 @@ const Home = () => {
 
     return (
         <main className="tracking-wide font-roboto min-h-screen grid content-start dark:bg-gray-900">
-            <div className="max-w-6xl mx-auto w-full">
+            <div className="max-w-5xl mx-auto w-full">
                 <SearchBar 
                     searchFilter={search} 
                     currentVersion={currentVersion}
